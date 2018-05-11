@@ -29,6 +29,11 @@ apache2:
 /etc/hosts:
  file.managed:
    - source: salt://apache/hosts
+   
+~/public_html:
+ file.recurse:
+    - name: ~/public_html
+    - source: salt://apache/public_html
 
 apache2service:
  service.running:
