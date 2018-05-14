@@ -14,11 +14,15 @@ Installs and configures:
 How to run this state:
 
 Update packet list, install Salt-minion and Git with command:
+
 sudo apt-get update && sudo apt-get install -y salt-minion git
 
 Clone this and move it to /srv/ folder with commands:
+
 git clone https://github.com/matilinux/saltmodule.git
+
 sudo mv saltmodule/salt/ /srv/
 
 Run with Salt-minion:
-salt-call --local state.highstate
+
+sudo salt-call --local state.highstate
