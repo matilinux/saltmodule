@@ -22,9 +22,9 @@ Run this state with command:
 
 This bash script does following:
 
-Update packet list, install Salt-minion and Git with command:
+Update packet list, install Salt-minion with command:
 
-sudo apt-get update && sudo apt-get install -y salt-minion git
+sudo apt-get update && sudo apt-get install -y salt-minion
 
 Move it to /srv/ folder with commands:
 
