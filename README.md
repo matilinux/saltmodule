@@ -16,11 +16,7 @@ Clone this:
 
 git clone https://github.com/matilinux/saltmodule.git
 
-Run this state with command:
-
-./start.sh
-
-This bash script does following:
+Run this state with commands:
 
 Update packet list, install Salt-minion with command:
 
