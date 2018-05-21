@@ -11,15 +11,22 @@ Installs and configures:
 - Gimp
 - Geany
 
-How to run this state:
+
+Clone this:
+
+git clone https://github.com/matilinux/saltmodule.git
+
+Run this state with command:
+
+./start.sh
+
+This bash script does following:
 
 Update packet list, install Salt-minion and Git with command:
 
 sudo apt-get update && sudo apt-get install -y salt-minion git
 
-Clone this and move it to /srv/ folder with commands:
-
-git clone https://github.com/matilinux/saltmodule.git
+Move it to /srv/ folder with commands:
 
 sudo mv saltmodule/salt/ /srv/
 
